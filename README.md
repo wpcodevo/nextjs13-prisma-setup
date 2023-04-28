@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# How to Setup Prisma ORM in Next.js 13 App Directory
 
-## Getting Started
+In this article, you will learn how to set up and use Prisma ORM in the new Next.js 13 app directory. We'll cover everything from initializing Prisma to seeding the database with test data and applying migrations.
 
-First, run the development server:
+![How to Setup Prisma ORM in Next.js 13 App Directory](https://codevoweb.com/wp-content/uploads/2023/04/How-to-Setup-and-Use-Prisma-ORM-in-Next.js-13-App-Directory.webp)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Topics Covered
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Setup the Next.js 13 Project
+- Setup Prisma ORM
+- Seeed the Database
+- Instantiate the Prisma Client
+- How to Use Prisma in React Server Component
+- How to Use Prisma in Next.js 13 Route Handlers
+    - Handle POST and GET Requests
+    - Handle GET, PATCH, and DELETE Requests
+- Make Requests in a Client-Side Component
+- Add the Component to the Main Page
+- Conclusion
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Read the entire article here: [https://codevoweb.com/how-to-setup-prisma-orm-in-nextjs-13-app-directory/](https://codevoweb.com/how-to-setup-prisma-orm-in-nextjs-13-app-directory/)
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
