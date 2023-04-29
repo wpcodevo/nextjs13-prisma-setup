@@ -14,7 +14,10 @@ export async function POST(request: Request) {
       data: json,
     });
 
-    return new NextResponse(JSON.stringify(user), { status: 201 });
+    return new NextResponse(JSON.stringify(user), {
+      status: 201,
+      headers: { "Content-Type": "application/json" },
+    });
   } catch (error: any) {
     if (error.code === "P2002") {
       return new NextResponse("User with email already exists", {
